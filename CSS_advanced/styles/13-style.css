@@ -38,21 +38,27 @@
     line-height: var(--line-height-base); /* Set minimum height of line boxes in the body to line-height-base */
   }
   
-  a[href]:not([href=""]) {
-    text-decoration: none; /* Remove text decoration for anchor elements containing hyperlinks */
-  }
-  
-  a[href]:visited:not([href=""]) {
-    font-style: italic; /* Italicize the text of visited links */
-  }
-  
-  a[href]:hover:not([href=""]) {
-    text-decoration: underline; /* Decorate links with an underline when hovering */
-  }
-  
-  a[href]:active:not([href=""]) {
-    background-color: var(--color-light-grey); /* Set the background color of active links */
-  }
+  a{
+	color: #161616;
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
+}
   
   .visually-hidden {
     display: none;
