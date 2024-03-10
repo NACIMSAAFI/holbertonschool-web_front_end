@@ -16,7 +16,7 @@
     --font-weight-bold: 700;
   }
   
-  /* Your existing CSS styles can go here */
+  /* Remaining styles from 6-style.css */
   html {
     scroll-behavior: smooth;
     font-size: 62.5%;
