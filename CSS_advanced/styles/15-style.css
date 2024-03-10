@@ -1,9 +1,4 @@
-/**
- * ! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
- *
- * @format
- */
- 
+
  /*# sourceMappingURL=normalize.min.css.map */
 
 :root {
@@ -32,7 +27,12 @@
     --section-title-margin: 0; /* New custom property for setting margin of section title */
     --section-title-color: var(--color-black); /* New custom property for setting text color of section title */
 }
-
+/**
+ * ! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+ *
+ * @format
+ */
+ 
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
