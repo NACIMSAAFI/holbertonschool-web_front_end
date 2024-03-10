@@ -4,7 +4,7 @@
  * @format
  */
 
- html {
+ html[data-section-theme="“dark”"] {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -195,6 +195,11 @@ template {
 *:after {
 	box-sizing: border-box;
 }
+[data-section-theme="dark"] {
+	background: var(--color-black);
+	--text-color: var(--color-white);
+	--section-title-color: var(--color-white);
+}
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -308,6 +313,10 @@ ul.row {
 .col-1-2 {
 	width: 50%;
 }
+[class^="col-"] {
+	float: left;
+	padding: 0.5rem;
+}
 .footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
@@ -316,19 +325,19 @@ ul.row {
 .footer ul {
 	text-align: right;
 }
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 .footer-address {
-    color: var(--text-color);
+	color: var(--text-color);
 }
 
 .social-link {
-    display: block;
+	display: block;
 }
 
-.social-link svg {
-    fill: var(--text-color);
+.social-link > svg {
+	fill: var(--text-color);
 }
