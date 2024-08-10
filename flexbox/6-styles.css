@@ -71,7 +71,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 2rem 0 0;
+    --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-white);
   
     /** BUTTON **/
@@ -197,10 +197,10 @@
     width: calc((100% / 2) - 2rem);
   }
   
-/* Navbar
-   ============================= */
-
-   .nav {
+  /* Navbar
+      ============================= */
+  
+  .nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -246,7 +246,6 @@
     background-color: var(--color-primary);
     width: 100%;
   }
-  
   
   /* Header
       ============================= */
