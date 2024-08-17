@@ -836,8 +836,10 @@ ul.row {
 }
 /* Default state */
 .card-work .card-title a {
-  opacity: 0;
-  transition: opacity 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+    opacity: 0;
 }
 
 /* When the anchor is focused */
