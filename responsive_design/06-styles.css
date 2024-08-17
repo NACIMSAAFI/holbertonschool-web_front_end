@@ -622,6 +622,21 @@ html {
     justify-content: center;
     min-height: 50vh;
   }
+  
+  /* Media query for max-width: 767px */
+  @media (max-width: 767px) {
+    .section-hero {
+      margin: -0.1rem 0;
+    }
+    
+    .hero-homepage {
+      background-position: 85% 0;
+    }
+    
+    .section-hero .section-body {
+      padding: 2rem;
+    }
+}
   /* Section Latest news
         ============================= */
   
@@ -815,24 +830,6 @@ html {
     padding: 5rem 0;
   }
 
-  .section-hero {
-    /* No specific styles for this section in the main CSS block */
-  }
-  
-  /* Media query for max-width: 767px */
-  @media (max-width: 767px) {
-    .section-hero {
-      margin: -0.1rem 0;
-    }
-    
-    .hero-homepage {
-      background-position: 85% 0;
-    }
-    
-    .section-hero .section-body {
-      padding: 2rem;
-    }
-}
   
   /* Post
         ============================= */
