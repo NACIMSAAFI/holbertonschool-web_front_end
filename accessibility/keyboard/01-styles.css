@@ -837,7 +837,7 @@ ul.row {
 /* Default state */
 .card-work .card-title a {
   opacity: 0;
-  transition: opacity 0.3s ease, height 0.3s ease, background-color 0.3s ease; /* Optional transition for smooth effects */
+  transition: opacity 0.3s ease, height 0.3s ease, background-color 0.3s ease;
 }
 
 /* When the anchor is focused */
