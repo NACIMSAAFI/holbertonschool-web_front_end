@@ -33,7 +33,6 @@
                 $('<tr>').append(
                     $('<th>').text('Firstname'),
                     $('<th>').text('Lastname'),
-                    $('<th>').text('Action') 
                 )
             ));
 
@@ -68,7 +67,7 @@
                     $('<option>').attr('value', 'before').text('Before'),
                     $('<option>').attr('value', 'after').text('After')
                 ),
-                $('<input>').attr('type', 'submit').attr('value', 'Add Member')
+                $('<input>').attr('type', 'submit').attr('value', 'Submit')
             );
 
             $('body').find('table').before($form);
